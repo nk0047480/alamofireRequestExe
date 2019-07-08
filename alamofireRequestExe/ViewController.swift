@@ -82,13 +82,21 @@ class ViewController: UIViewController {
                 } else {
                     print("error")
                 }
-                
-                
-                
         }
         
     }
     
 
 }
+////////////////php_code
+/*<?php
 
+if (isset($_GET["term"])) {
+    $receive = $_GET["term"];
+    echo "參數上傳成功<br>";
+    echo "value:".$_GET["term"];
+} else {
+    echo "失敗";
+    // Fallback behaviour goes here
+}
+?>*/
